@@ -2,7 +2,19 @@ package ronancamargo
 
 import slick.jdbc.PostgresProfile.api._
 
-case class Person(id: Int, firstName: String)
+import java.time.LocalDateTime
+
+case class Person(
+    id: Int,
+    firstName: String,
+    lastName: String,
+    identification: Int,
+    age: Int,
+    address: String,
+    city: String,
+    country: Int,
+    creationDateTime: LocalDateTime
+)
 
 class PersonTable(tag: Tag) extends Table[Person](tag, "person") {
 
