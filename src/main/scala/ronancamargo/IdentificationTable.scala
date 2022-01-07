@@ -1,5 +1,0 @@
-package ronancamargo
-
-class IdentificationTable {
-  
-}

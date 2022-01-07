@@ -21,3 +21,5 @@ constraint fk_p_i foreign key (identification) references identification(id);
 
 alter table identification add
 constraint ck_type check (identification_type in ('DNI', 'CI', 'LC'));
+
+INSERT INTO identification (identification_number, identification_type) VALUES('1234567', 'DNI');

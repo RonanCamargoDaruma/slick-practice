@@ -2,6 +2,8 @@ package ronancamargo
 
 import ronancamargo.database.PostgresDatabase
 import ronancamargo.entities.Person
+import ronancamargo.future.Util
+import ronancamargo.tables.PersonTable
 import slick.jdbc.PostgresProfile.api._
 
 import java.time.LocalDateTime

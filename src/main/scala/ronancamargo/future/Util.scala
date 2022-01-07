@@ -1,4 +1,4 @@
-package ronancamargo
+package ronancamargo.future
 
 import cats.effect.IO
 import cats.effect.unsafe.implicits.global
