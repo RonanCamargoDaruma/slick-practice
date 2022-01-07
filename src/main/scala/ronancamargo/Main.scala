@@ -5,7 +5,7 @@ import ronancamargo.entities.Person
 import slick.jdbc.PostgresProfile.api._
 
 import java.time.LocalDateTime
-import scala.concurrent.{ExecutionContext, ExecutionContextExecutor}
+import scala.concurrent.ExecutionContext
 
 object Main extends App {
 
